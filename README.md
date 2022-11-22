@@ -16,3 +16,22 @@ contains a total of 158,170 samples, including 55% of legitimate instances and 4
 simulated GPS spoofing attacks, all in a balanced distribution. The data described and attached to this article can be used to 
 investigate the effect of the GPS spoofing attack on the extracted features and contribute to the development of GPS spoofing attack 
 detection techniques based on supervised and unsupervised machine learning.
+
+### Value of the Data
+- The raw dataset is collected using real-time feature extraction from authentic GPS signals using a USRP unit configured as 
+an eight-channel GPS receiver emulating a real GPS receiver in an autonomous vehicle. The dataset includes the correlator's 
+amplitude at the time the Doppler shift is updated.
+- Using the collected GPS signals, three spoofing attack types were simulated: simplistic, intermediate, and sophisticated 
+attacks. A simulation was chosen over real live GPS spoofing attacks since they are illegal and risky, and setting up an indoor 
+test bench was dismissed as its results are often biased and incorrect.
+- The dataset is made easy for robust training of supervised/unsupervised machine learning algorithms to detect GPS spoofing 
+attacks by converting the 3D cubic data from the eight parallel channels into a 2D feature map.
+- The three different attacks and legitimate signals can easily be separated from each other using the label field. In this way, 
+the dataset can be rearranged for binary classification with one attack at a time.
+- The dataset is available in Excel format and can be converted to a comma-separated file format to help researchers easily 
+import the dataset into different research software platforms and programs.
+- A separate Excel file containing the raw (original) GPS data is included for researchers to use to simulate customized GPSrelated attacks or for other uses.
+- As civilian GPS transmissions are open and unencrypted, GPS spoofing attacks against GPS receivers are frequent and 
+dangerous. Researchers can utilize this dataset to study how different extracted features impact Artificial Intelligence (AI) 
+based models' ability to identify and categorize spoofed and real instances. The research based on this dataset will then help 
+the community develop robust countermeasures for GPS spoofing attacks.
