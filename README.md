@@ -43,4 +43,4 @@ The data was collected using a GPS receiver in two different scenarios. The firs
 with an average speed of 45 mph. The second scenario consists of three stationary positions at different altitudes. It is worth 
 mentioning that the vertical GPS position error is larger than the horizontal plane since a sufficient satellite spread is only possible 
 for a horizontal plane [1].
-![This is an image](Screenshot 2022-11-21 192901.png)
+![This is an image](Screenshot 2022-11-21 192901.md)
