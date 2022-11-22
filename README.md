@@ -30,7 +30,7 @@ attacks by converting the 3D cubic data from the eight parallel channels into a 
 the dataset can be rearranged for binary classification with one attack at a time.
 - The dataset is available in Excel format and can be converted to a comma-separated file format to help researchers easily 
 import the dataset into different research software platforms and programs.
-- A separate Excel file containing the raw (original) GPS data is included for researchers to use to simulate customized GPSrelated attacks or for other uses.
+- A separate Excel file containing the raw '(original)' GPS data is included for researchers to use to simulate customized GPSrelated attacks or for other uses.
 - As civilian GPS transmissions are open and unencrypted, GPS spoofing attacks against GPS receivers are frequent and 
 dangerous. Researchers can utilize this dataset to study how different extracted features impact Artificial Intelligence (AI) 
 based models' ability to identify and categorize spoofed and real instances. The research based on this dataset will then help 
