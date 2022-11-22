@@ -45,8 +45,8 @@ mentioning that the vertical GPS position error is larger than the horizontal pl
 for a horizontal plane [1].
 <figure>
 <p align="center">
-  <img width="460" height="300" src="https://github.com/ghilasaissou/A-DATASET-FOR-GPS-SPOOFING-DETECTION-ON-AUTONOMOUS-VEHICLES/blob/main/Screenshot%202022-11-21%20192901.png">
- <figcaption align = "center"><b>Fig.1 - Two scenarios of GPS signal collection, a static GPS receiverin threedifferent locations 
-                                    (on the right), and a driving scenario (on the left)</b></figcaption>
+  <img src="https://github.com/ghilasaissou/A-DATASET-FOR-GPS-SPOOFING-DETECTION-ON-AUTONOMOUS-VEHICLES/blob/main/Screenshot%202022-11-21%20192901.png">
+ <figcaption align = "center"><b> Fig.1 - Two scenarios of GPS signal collection, a static GPS receiver in three different locations 
+                                    (on the right), and a driving scenario (on the left) </b></figcaption>
 </p>
 </figure>
