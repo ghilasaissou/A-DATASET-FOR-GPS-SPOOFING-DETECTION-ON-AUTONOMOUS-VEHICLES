@@ -35,3 +35,11 @@ import the dataset into different research software platforms and programs.
 dangerous. Researchers can utilize this dataset to study how different extracted features impact Artificial Intelligence (AI) 
 based models' ability to identify and categorize spoofed and real instances. The research based on this dataset will then help 
 the community develop robust countermeasures for GPS spoofing attacks.
+
+### Data Description 
+ 
+1.1 Data Collection
+The data was collected using a GPS receiver in two different scenarios. The first is a driving test at speeds ranging from 0 to 60 mph 
+with an average speed of 45 mph. The second scenario consists of three stationary positions at different altitudes. It is worth 
+mentioning that the vertical GPS position error is larger than the horizontal plane since a sufficient satellite spread is only possible 
+for a horizontal plane [1].
