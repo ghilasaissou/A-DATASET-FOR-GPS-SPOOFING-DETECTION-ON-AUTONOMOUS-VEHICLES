@@ -1,8 +1,7 @@
-# GPS_Spoofing_on_UAS
-A DATASET for GPS Spoofing Detection on Autonomous Vehicles
-Authors
+#A DATASET for GPS Spoofing Detection on Autonomous Vehicles
+#Authors
 Ghilas Aissou, Selma Benouadah, Hassan El Alami, and Naima Kaabouch
-Affiliations
+#Affiliations
 School ofElectrical Engineering andComputer Science, University of North Dakota Grand Forks, ND 58202
 USA
 Corresponding author’s email address
