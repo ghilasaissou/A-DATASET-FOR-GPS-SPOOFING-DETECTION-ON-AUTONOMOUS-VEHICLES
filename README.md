@@ -4,7 +4,7 @@ Ghilas Aissou, Selma Benouadah, Hassan El Alami, and Naima Kaabouch
 #### Affiliations
 School ofElectrical Engineering andComputer Science, University of North Dakota Grand Forks, ND 58202
 USA
-####Corresponding author’s email address
+#### Corresponding author’s email address
 ghilas.aissou@und.edu
 ### Abstract
 A dataset of Global Positioning System (GPS) spoofing attacks is presented in this article. This dataset includes data extracted 
