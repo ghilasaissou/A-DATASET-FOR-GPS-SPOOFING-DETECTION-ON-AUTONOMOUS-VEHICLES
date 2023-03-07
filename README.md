@@ -50,3 +50,42 @@ for a horizontal plane [1].
                                     (on the right), and a driving scenario (on the left) </b></figcaption>
 </p>
 </figure>
+The collected data is offered in two different formats, an 8-channel format and a readable (simple/ efficient)
+format rendered in excel files. The 8-channel format consists of 158,170 data samples with 13 features from
+eight channels represented as a 3-dimensional expansion of the channels, as illustrated in Fig. 2. The extracted
+2
+features and their corresponding stage of extraction are described in Table 2. The extraction process is done in
+parallel in each of the eight channels.
+
+<figure>
+<p align="center">
+  <img src="https://github.com/ghilasaissou/A-DATASET-FOR-GPS-SPOOFING-DETECTION-ON-AUTONOMOUS-VEHICLES/blob/main/Screenshot 2023-03-07 134737.png">
+ <figcaption align = "center"><b> Fig.2 - Parallel feature extraction from 8 channels GPS receiver </b></figcaption>
+</p>
+</figure>
+
+The readable excel format is a conversion of the time series output data of the eight channels receiver into
+a non-time series distribution. The zero values in the 8-channel dataset represent the time interval where the
+channels are unlocked with the GPS signals, thus all those values are removed in the simplified format.
+
+| Feature name  | Second Header |
+| ------------- | ------------- |
+|The satellite vehicle number (PRN) |Post-correlation|
+|The Carrier Doppler in HZ (DO) |Post-correlation|
+|Pseudo-range in meter (PD) |Post-correlation|
+|Receiver Time (RX) |Post-correlation|
+|Time of the week in second (TOW)| Post-correlation|
+|Carrier Phase Cycles (CP) | Post-correlation|
+|The magnitude of the Early Correlator (EC)| During correlation|
+|The magnitude of the Late Correlator (LC) |During correlation|
+|The magnitude of the Prompt Correlator (PC)| During correlation| 
+|Prompt in phase correlator (PIP) |During correlation|
+|Prompt Quadrature component (PQP)| During correlation|
+|Carrier Doppler in Tracking loop (TCD)| During correlation|
+|Carrier to noise Ratio in dB (C/N◦)| Pre-correlation|
+ 
+ #### 1.2 Features description
+**PRN**: The GPS constellation contains 27 operational satellites, each satellite is identified with a unique identification number.
+**DO**:The Doppler shift isthe result of the satellite and receiver motion. The DO is expressed asthe frequency drift between the sent
+frequency and received frequency of the GPS signal, as described in (1).
+
