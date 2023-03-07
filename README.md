@@ -85,10 +85,10 @@ channels are unlocked with the GPS signals, thus all those values are removed in
 |Carrier to noise Ratio in dB (C/N◦)| Pre-correlation|
  
  #### 1.2 Features description
-**PRN:** The GPS constellation contains 27 operational satellites, each satellite is identified with a unique identification number.  <br>     
+**PRN:** The GPS constellation contains 27 operational satellites, each satellite is identified with a unique identification number.      
 **DO:**The Doppler shift isthe result of the satellite and receiver motion. The DO is expressed asthe frequency drift between the sent
-frequency and received frequency of the GPS signal, as described in (1). <br> 
-$f = (\frac{c+v_r}{c+v_s}) \times f_i $    (1)   <br> 
+frequency and received frequency of the GPS signal, as described in (1). 
+$f = (\frac{c+v_r}{c+v_s}) \times f_i $    (1)   
 Where, vr is the receiver speed, and vs is the satellite speed [2]. The Doppler offset is ±5kHz with rate of
 change of ±20Hz related to the receiver configuration. <br> 
 **PD:** The pseudo-range is the time difference between the transmission and reception time. It can be expressed
